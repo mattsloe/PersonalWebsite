@@ -1,5 +1,6 @@
 :root {
     --black: #000;
+    --lighter-black: #505050;
     --white: #FFF;
     --greeny: #005F6B;
     --greeny-light: #00F3B3;
@@ -138,7 +139,7 @@ ul{
 #hamburger-icon .line{
     position:fixed;
     display:block;
-    background: var(--black);
+    background: var(--lighter-black) !important;
     width: 30px;
     height: 4px;
     transition: all .5s ease-in;
@@ -153,7 +154,17 @@ ul{
     top:46px;
 }
 
+#hamburger-icon.active .bar-1{
+    transform: translateY(8px) translateX(0) rotate(45deg); /*translate hamburger icon to x*/
+}
 
+#hamburger-icon.active .bar-2{
+    opacity:0;
+}
+
+#hamburger-icon.active .bar-3{
+    transform: translateY(-8px) translateX(0) rotate(-45deg);
+}
 
 
 
