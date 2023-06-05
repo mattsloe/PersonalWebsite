@@ -11,8 +11,14 @@
     margin:auto;
 }
 
+
+
 .background, .img {
     position:absolute;
+}
+
+.footer, h2, h3{
+    text-align:center;
 }
 
 .padding{
@@ -26,22 +32,28 @@ a:link, a:visited {
 
 h1{
     /*define font-family and size here */
-    font-size:14vmin;
+    font-size:15vmin !important;
 }
 h2{
     /*define font-family and size here */
+    font-size:25pt !important;
 }
 h3{
     /*define font-family and size here */
+    font-size:20pt !important;
 }
 h4{
     /*define font-family and size here */
+    font-size:15pt;
 }
 li, p {
    /*define font and size here */
+    font-size:14pt;
 }
 
 .about {
+    background-color: var(--white);
+    margin:15px;
 
 }
 
@@ -49,20 +61,37 @@ li, p {
     text-align: center;
 }
 
-.previous-work{
+.skills {
+    /*font family*/
+    background-color: var(--lightest-gray);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
+.previous-work{
+    background-color: var(--white);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .projects{
-
+    background-color: var(--lightest-gray);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contact {
-
+    background-color: var(--white);
 }
 
 .footer {
-
+    color: var(--lightest-gray);
+    padding-top:30px;
+    padding-bottom:30px;
+    display:flex;
+    /*font family*/
 }
 
 ul{
@@ -74,6 +103,13 @@ ul{
     bottom:0;
     left:0;
     right:0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.img-responsives {
+    max-width: 70%;
+    max-height: 70%;
 }
 
 .header{
@@ -87,7 +123,6 @@ ul{
     height: 100vh;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
-    min-height: 100%;
     min-height: 100vh;
     display: flex;
     align-items:center;
@@ -109,7 +144,7 @@ ul{
     top: 20%;
     width: 100%;
     text-align: center;
-    margin-top:30px;
+    margin-top:40px;
 }
 
 .overlay a{
@@ -125,6 +160,16 @@ ul{
 .overlay a:focus, .overlay a:hover{
     color:var(--lightest-gray);
 }
+
+#portraitPic {
+    padding-top:30px;
+}
+
+.about, .contact, .contact-icon, .hr, .projects, .skills, .previous-work{
+    color:var(--black);
+}
+
+
 
 #hamburger-icon {
     position:fixed;
@@ -166,32 +211,6 @@ ul{
     transform: translateY(-8px) translateX(0) rotate(-45deg);
 }
 
-
-
-@media screen and (min-width:700px) and (max-width: 1000px){
-
-}
-
-@media screen and (min-width: 1024px){
-
-}
-
-@media screen and (max-height: 450px){
-    .overlay{
-        overflow-y: auto;
-    }
-
-    overlay a{
-        font-size:20px;
-    }
-    .overlay .closebtn{
-        font-size: 40px;
-        top:15px;
-        right: 35px;
-
-    }
-}
-
 @media screen and (max-width: 800px){
     .center{
         margin-left:20%;
@@ -199,4 +218,34 @@ ul{
     h2 {
         text-align:left;
     }
+
+    #portraitPic {
+        padding-top:0 ;
+    }
 }
+
+@media screen and (min-width:700px) and(max-width: 1000px){
+    .img-responsives {
+        width: 35%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .about-description{
+        padding-right:20px;
+    }
+}
+
+@media screen and (max-height: 450px){
+    .overlay{
+        overflow-y: auto;
+    }
+
+    .overlay a{
+        font-size:20px;
+    }
+
+}
+
+
