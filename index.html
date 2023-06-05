@@ -25,21 +25,18 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
   </head>
 
   <!-- Overlay Menu -->
   <div id="myNav" class="overlay">
     <!-- Content -->
     <div class="overlay-content">
-      <a href="#about" onclick="closer()">About</a>
-      <a href="#skills" onclick="closer()">Skills</a>
-      <a href="#previous-work" onclick="closer()">Previous Work</a>
-      <a href="#projects" onclick="closer()">Projects</a>
-      <a href="#contact" onclick="closer()">Contact</a>
+      <a href="#about" onclick="closer()" aria-label="Shortcut to About Section"[Shortcut]>About</a>
+      <a href="#skills" onclick="closer()"aria-label="Shortcut to Skills Section"[Shortcut]>Skills</a>
+      <a href="#previous-work" onclick="closer()" aria-label="Shortcut to Previous Work Section"[Shortcut]>Previous
+        Work</a>
+      <a href="#projects" onclick="closer()" aria-label="Shortcut to Projects Section"[Shortcut]>Projects</a>
+      <a href="#contact" onclick="closer()" aria-label="Shortcut to Contact Section"[Shortcut]>Contact</a>
     </div>
   </div>
 
@@ -47,7 +44,8 @@
   <body>
     <!-- Splash -->
     <div class="header vertical-center">
-      <a id="hamburger-icon" href="#" title="Menu" onclick="openNav()">
+      <a id="hamburger-icon" href="#" title="Menu" onclick="openNav()"
+         aria-label="Button to open hamburger menu"[Menu]>
         <span class="line bar-1"></span>
         <span class="line bar-2"></span>
         <span class="line bar-3"></span>
@@ -196,7 +194,7 @@
             <p>Description of project</p>
             <br />
             <p>
-              <a href="link" target="_blank">Demo</a> |
+              <a href="link" target="_blank" >Demo</a> |
               <a href="link" target="_blank">Source</a>
             </p>
           </div>
