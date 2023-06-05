@@ -7,6 +7,14 @@
   --tealish: #008c9e;
   --lightest-gray: #f1f1f1;
 }
+form {
+	border:10px dotted var(--tealish);
+		padding: 10px;
+}
+textarea {
+	box-sizing: border-box;
+	width: 100%;
+}
 .img,
 ul {
   margin: auto;
