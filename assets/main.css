@@ -152,7 +152,7 @@ ul {
   bottom: 0;
   left: 0;
   right: 0;
-  overflow-clip-margin: content-box;
+
   overflow: clip;
 }
 
@@ -279,7 +279,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 700px) and(max-width: 1000px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
   .img-responsives {
     width: 35%;
     height: auto;
