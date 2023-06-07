@@ -22,8 +22,8 @@ p {
   width: 100%;
 }
 ul {
-  margin-left: 0 ;
-  margin-right: 0 ;
+  margin-left: 0;
+  margin-right: 0;
 }
 .projImages {
   width: 600px;
@@ -65,23 +65,23 @@ a:visited {
 #nametag {
   /*define font-family and size here */
   font-size: 15vmin;
-  font-family: "Kanit", sans-serif ;
+  font-family: "Kanit", sans-serif;
   text-transform: uppercase;
 }
 h2 {
   /*define font-family and size here */
-  font-size: 25pt ;
+  font-size: 25pt;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
 }
 h3 {
   /*define font-family and size here */
-  font-size: 20pt ;
+  font-size: 20pt;
   text-transform: uppercase;
   font-family: "Rubik", sans-serif;
-
 }
-.container h3 {
+.container h3,
+.about-description h3 {
   font-weight: bold;
   font-size: 20pt;
 }
@@ -90,11 +90,9 @@ h4 {
   font-size: 15pt;
   text-align: center;
   font-family: "Nunito", sans-serif;
-
 }
 .skills h4 {
   font-weight: bold;
-
 }
 li,
 p {
