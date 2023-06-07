@@ -7,13 +7,23 @@
   --tealish: #008c9e;
   --lightest-gray: #f1f1f1;
 }
+li li{
+  padding-left: 10px !important;
+  margin-left: 0;
+}
+ul ul {
+  margin-left: 0 !important;
+}
+.projImages{
+  width: 600px;
+}
 form {
-	border:10px dotted var(--tealish);
-		padding: 10px;
+  border: 10px dotted var(--tealish);
+  padding: 10px;
 }
 textarea {
-	box-sizing: border-box;
-	width: 100%;
+  box-sizing: border-box;
+  width: 100%;
 }
 .img,
 ul {
@@ -71,6 +81,8 @@ p {
 .centertext {
   text-align: center;
 }
+
+
 
 .skills {
   /*font family*/
