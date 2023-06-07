@@ -1,5 +1,6 @@
 # Personal Website
 This is the repository for my personal website! This project is a personal website to showcase information about me, my projects, and contact information.
+[Development Journal can be found here](journal.MD)
 
 ## Features
 * **About** - Introduction to who I am, and a little background
