@@ -1,0 +1,24 @@
+# Personal Website
+This is the repository for my personal website! This project is a personal website to showcase information about me, my projects, and contact information.
+
+## Features
+* **About** - Introduction to who I am, and a little background
+* **Skills** - Overview of my relevant skills
+* **Previous Work** - Some previous projects and experience (in addition to what I want to showcase from Projects)
+* **Projects** - A showcase of specific projects and links to their repos
+* **Contact** - An HTML form to send me a message
+* **Links to socials** - Unintrusive links to my relevant socials
+
+## Technologies Used
+This website was built using the following:
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+* jQuery
+
+## Usage
+Visit my deployed website on [Github Pages](https://mattsloe.github.io/PersonalWebsite) 
+
+## Acknowledgements
+* 
