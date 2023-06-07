@@ -21,4 +21,7 @@ This website was built using the following:
 Visit my deployed website on [Github Pages](https://mattsloe.github.io/PersonalWebsite) 
 
 ## Acknowledgements
-* 
+* [particles.js](https://github.com/marcbruederlin/particles.js) - Marc Bruederlin
+* [particles.js tutorial](https://redstapler.co/particles-js-tutorial/)
+* Custom fonts hosted by Google Fonts
+* [Tasty CSS-animated hamburgers](https://jonsuh.com/hamburgers/)
