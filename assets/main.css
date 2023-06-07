@@ -7,6 +7,9 @@
   --tealish: #008c9e;
   --lightest-gray: #f1f1f1;
 }
+p {
+  text-indent: 1em !important;
+}
 .prev-wrk {
   text-align: left;
 }
@@ -78,6 +81,7 @@ h4 {
   /*define font-family and size here */
   font-size: 15pt;
   text-align: center;
+  font-family: "Nunito", sans-serif !important;
 }
 li,
 p {
