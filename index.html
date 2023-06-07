@@ -31,39 +31,31 @@
   <div id="myNav" class="overlay">
     <!-- Content -->
     <div class="overlay-content">
-      <a
-        href="#about"
-        onclick="closer()"
-        aria-label="Shortcut to About Section"
-        [Shortcut]
+      <a href="#about" onclick="closer()" aria-label="Shortcut to About Section"
         >About</a
       >
       <a
         href="#skills"
         onclick="closer()"
         aria-label="Shortcut to Skills Section"
-        [Shortcut]
         >Skills</a
       >
       <a
         href="#previous-work"
         onclick="closer()"
         aria-label="Shortcut to Previous Work Section"
-        [Shortcut]
         >Previous Work</a
       >
       <a
         href="#projects"
         onclick="closer()"
         aria-label="Shortcut to Projects Section"
-        [Shortcut]
         >Projects</a
       >
       <a
         href="#contact"
         onclick="closer()"
         aria-label="Shortcut to Contact Section"
-        [Shortcut]
         >Contact</a
       >
     </div>
@@ -79,7 +71,6 @@
         title="Menu"
         onclick="openNav()"
         aria-label="Button to open hamburger menu"
-        [Menu]
       >
         <span class="line bar-1"></span>
         <span class="line bar-2"></span>
@@ -203,26 +194,35 @@
         <b><h3>Previous Work</h3></b>
         <hr />
         <br />
-        <p><ul>
-        <li> Worked on low level operating system projects in xv6
-          <ul>
-          <li>Wrote a custom scheduler for the OS</li>
-          <li>Wrote a custom paging system for OS memory</li></ul></li>
-          <li>Worked on PrimesMT, a low level quick implementation of the 'sieve of Eratosthenes' algorithm to
-        generate primes up to a given value
+        <div class="row">
+          <div class="col-md-12 col-sm-12 prev-wrk">
+            <h4>Worked on low level operating system projects in xv6</h4>
             <ul>
-          <li>Optimization by representing primes in bit-arrays</li>
-          <li>Used a multi-threaded approach to speed up the search</li>
-          <li>Implemented a wheel approach to further speed up the search</li>
+              <li>Wrote a custom scheduler for the OS</li>
+              <li>Wrote a custom paging system for OS memory</li>
             </ul>
-          </li>
-          <li>Programming languages work
+
+            <h4>
+              Worked on PrimesMT, a low level quick implementation of the 'sieve
+              of Eratosthenes' algorithm to generate primes up to a given value
+            </h4>
             <ul>
-          <li>created a toy programming language from the ground up including lexer rules, first-class functions, and
-            type checking</li>
+              <li>Optimization by representing primes in bit-arrays</li>
+              <li>Used a multi-threaded approach to speed up the search</li>
+              <li>
+                Implemented a wheel approach to further speed up the search
+              </li>
             </ul>
-          </li>
-      </ul></p>
+
+            <h4>Programming Languages Work</h4>
+            <ul>
+              <li>
+                created a toy programming language from the ground up including
+                lexer rules, first-class functions, and type checking
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Projects -->
@@ -235,13 +235,11 @@
         <div class="row">
           <!-- Project 1 -->
           <div class="col-md-5">
-            <center>
-              <img
-                src="assets/img/ChocAn_projectIcon.png"
-                alt="Screenshot from ChocAn software running in terminal"
-                class="img-fluid projImages"
-              />
-            </center>
+            <img
+              src="assets/img/ChocAn_projectIcon.png"
+              alt="Screenshot from ChocAn software running in terminal"
+              class="img-fluid projImages text-center"
+            />
           </div>
           <div class="col-md-7">
             <b><h3>Chocoholics Anonymous Software</h3></b>
@@ -255,21 +253,16 @@
           </div>
         </div>
 
-
-
-
         <br />
 
         <div class="row">
           <!-- Project 3 -->
           <div class="col-md-5">
-            <center>
-              <img
-                src="assets/img/DFA_projectIcon.png"
-                alt=""
-                class="img-fluid projImages"
-              />
-            </center>
+            <img
+              src="assets/img/DFA_projectIcon.png"
+              alt=""
+              class="img-fluid projImages text-center"
+            />
           </div>
           <div class="col-md-7">
             <b><h3>Discrete Finite Automata Simulator</h3></b>

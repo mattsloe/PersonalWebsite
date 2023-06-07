@@ -7,14 +7,19 @@
   --tealish: #008c9e;
   --lightest-gray: #f1f1f1;
 }
-li li{
-  padding-left: 10px !important;
-  margin-left: 0;
+.prev-wrk {
+  text-align: left;
 }
-ul ul {
+.prev-wrk:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+ul {
   margin-left: 0 !important;
+  margin-right: 0 !important;
 }
-.projImages{
+.projImages {
   width: 600px;
 }
 form {
@@ -54,23 +59,31 @@ a:visited {
 h1 {
   /*define font-family and size here */
   font-size: 15vmin !important;
+  font-family: "Kanit", sans-serif !important;
+  text-transform: uppercase;
 }
 h2 {
   /*define font-family and size here */
   font-size: 25pt !important;
+  font-family: "Rubik", sans-serif !important;
+  text-transform: uppercase;
 }
 h3 {
   /*define font-family and size here */
   font-size: 20pt !important;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif !important;
 }
 h4 {
   /*define font-family and size here */
   font-size: 15pt;
+  text-align: center;
 }
 li,
 p {
   /*define font and size here */
   font-size: 14pt;
+  font-family: "Open+Sans", sans-serif !important;
 }
 
 .about {
@@ -81,8 +94,6 @@ p {
 .centertext {
   text-align: center;
 }
-
-
 
 .skills {
   /*font family*/
@@ -275,3 +286,9 @@ ul {
     font-size: 20px;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Nunito:wght@500&family=Open+Sans&family=Rubik&display=swap");
+/*font-family: 'Kanit', sans-serif; For MATT LOERA*/
+/*font-family: 'Nunito', sans-serif;*/
+/*font-family: 'Rubik', sans-serif; For h3*/
+/*font-family: 'Open+Sans', sans-serif; For li,p */
