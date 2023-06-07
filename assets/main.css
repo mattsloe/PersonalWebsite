@@ -7,8 +7,9 @@
   --tealish: #008c9e;
   --lightest-gray: #f1f1f1;
 }
+
 p {
-  text-indent: 1em !important;
+  text-indent: 1em;
 }
 .prev-wrk {
   text-align: left;
@@ -19,8 +20,8 @@ p {
   width: 100%;
 }
 ul {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: 0 ;
+  margin-right: 0 ;
 }
 .projImages {
   width: 600px;
@@ -59,35 +60,40 @@ a:visited {
   color: var(--greeny);
 }
 
-h1 {
+#nametag {
   /*define font-family and size here */
-  font-size: 15vmin !important;
-  font-family: "Kanit", sans-serif !important;
+  font-size: 15vmin;
+  font-family: "Kanit", sans-serif ;
   text-transform: uppercase;
 }
 h2 {
   /*define font-family and size here */
-  font-size: 25pt !important;
-  font-family: "Rubik", sans-serif !important;
+  font-size: 25pt ;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
 }
 h3 {
   /*define font-family and size here */
-  font-size: 20pt !important;
+  font-size: 20pt ;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Rubik", sans-serif;
+
+}
+.container h3 {
+  font-weight: bold;
+  font-size: 20pt;
 }
 h4 {
   /*define font-family and size here */
   font-size: 15pt;
   text-align: center;
-  font-family: "Nunito", sans-serif !important;
+  font-family: "Nunito", sans-serif;
 }
 li,
 p {
   /*define font and size here */
   font-size: 14pt;
-  font-family: "Open+Sans", sans-serif !important;
+  font-family: "Open+Sans", sans-serif;
 }
 
 .about {
@@ -228,7 +234,7 @@ ul {
 #hamburger-icon .line {
   position: fixed;
   display: block;
-  background: var(--lighter-black) !important;
+  background: var(--lighter-black);
   width: 30px;
   height: 4px;
   transition: all 0.5s ease-in;
