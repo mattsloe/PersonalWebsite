@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Nunito:wght@500&family=Open+Sans&family=Rubik&display=swap");
+
 :root {
   --black: #000;
   --lighter-black: #505050;
@@ -6,6 +8,10 @@
   --greeny-light: #00f3b3;
   --tealish: #008c9e;
   --lightest-gray: #f1f1f1;
+}
+
+p {
+  text-indent: 1em;
 }
 .prev-wrk {
   text-align: left;
@@ -16,8 +22,8 @@
   width: 100%;
 }
 ul {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: 0 ;
+  margin-right: 0 ;
 }
 .projImages {
   width: 600px;
@@ -56,34 +62,45 @@ a:visited {
   color: var(--greeny);
 }
 
-h1 {
+#nametag {
   /*define font-family and size here */
-  font-size: 15vmin !important;
-  font-family: "Kanit", sans-serif !important;
+  font-size: 15vmin;
+  font-family: "Kanit", sans-serif ;
   text-transform: uppercase;
 }
 h2 {
   /*define font-family and size here */
-  font-size: 25pt !important;
-  font-family: "Rubik", sans-serif !important;
+  font-size: 25pt ;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
 }
 h3 {
   /*define font-family and size here */
-  font-size: 20pt !important;
+  font-size: 20pt ;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Rubik", sans-serif;
+
+}
+.container h3 {
+  font-weight: bold;
+  font-size: 20pt;
 }
 h4 {
   /*define font-family and size here */
   font-size: 15pt;
   text-align: center;
+  font-family: "Nunito", sans-serif;
+
+}
+.skills h4 {
+  font-weight: bold;
+
 }
 li,
 p {
   /*define font and size here */
   font-size: 14pt;
-  font-family: "Open+Sans", sans-serif !important;
+  font-family: "Open+Sans", sans-serif;
 }
 
 .about {
@@ -163,7 +180,7 @@ ul {
   align-items: center;
 }
 .overlay {
-  height: 0%;
+  height: 0;
   width: 100%;
   position: fixed;
   z-index: 2;
@@ -224,7 +241,7 @@ ul {
 #hamburger-icon .line {
   position: fixed;
   display: block;
-  background: var(--lighter-black) !important;
+  background: var(--lighter-black);
   width: 30px;
   height: 4px;
   transition: all 0.5s ease-in;
@@ -287,7 +304,6 @@ ul {
   }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Nunito:wght@500&family=Open+Sans&family=Rubik&display=swap");
 /*font-family: 'Kanit', sans-serif; For MATT LOERA*/
 /*font-family: 'Nunito', sans-serif;*/
 /*font-family: 'Rubik', sans-serif; For h3*/
