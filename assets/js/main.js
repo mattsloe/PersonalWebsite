@@ -24,7 +24,7 @@ function openNav() {
     flag = false; //to close the menu
   } else {
     document.getElementById("myNav").style.height = "0%";
-    $(".line").css("background", "black");
+    $(".line").css("background", "var(--lighter-black)");
     flag = true;
   }
 }
